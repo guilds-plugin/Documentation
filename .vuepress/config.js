@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/',
+  base: '/<REPO>/',
   title: 'Guilds',
   description: 'The easiest way to make the most out of RPG on your servers.',
   themeConfig: {
