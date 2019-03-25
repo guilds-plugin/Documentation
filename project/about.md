@@ -9,7 +9,7 @@
 
 ## Open-Source Team
 
-This project could've have been created with the constant help of others in the community that are also inspired to help create an awesome RPG community on servers!
+This project could not have been created with the constant help of others in the community that are also inspired to help create an awesome RPG community on servers!
 
 ## License
 

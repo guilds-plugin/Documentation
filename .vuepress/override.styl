@@ -13,7 +13,8 @@ body
     border-color desaturate(lighten($bg-color, 30%), 30%)
     background-color #151515!important
     color desaturate(lighten($bg-color, 80%), 50%)
-
+.icon.outbound
+    display: none!important
 .algolia-search-wrapper
   .algolia-autocomplete
     .ds-dropdown-menu
@@ -23,7 +24,14 @@ body
       &:before
         background-color desaturate(lighten($bg-color, 15%), 10%)
         border: 0;
-
+td
+    color: $text-color!important
+th
+    color: $text-color!important
+tr:nth-child(2n)
+    background-color: $bg-color!important
+.content code
+    color: $text-color!important
 .search-box
   input
     border-color desaturate(lighten($bg-color, 30%), 30%)

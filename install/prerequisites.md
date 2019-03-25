@@ -10,4 +10,4 @@ Guilds can run on pretty much any platform that supports Bukkit. Please don't ho
 **Disk Space**: Guilds uses very little space. It's optimized to keep itself to a single JSON file along with the addition of the config file and all the translations. You shouldn't need more than `10MB` of space to run properly.
 
 ## Required Plugins
-Since Guilds handles a lot of work with economy and permissions, the plugin does depend upon [Vualt](https://www.spigotmc.org/resources/34315/).
+Since Guilds handles a lot of work with economy and permissions, the plugin does depend upon [Vault](https://www.spigotmc.org/resources/34315/).
