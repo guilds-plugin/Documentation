@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 actionText: Get Started →
-actionLink: /introduction/
+actionLink: /project/introduction
 features:
 - title: Open Source!
   details: Guilds will always be open source, which also means it will always be free to use! Use as you please!

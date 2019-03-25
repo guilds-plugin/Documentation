@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/Documentation/',
+  base: '/',
   title: 'Guilds',
   description: 'The easiest way to make the most out of RPG on your servers.',
   themeConfig: {
@@ -9,5 +9,25 @@ module.exports = {
       { text: 'Discord', link: 'https://glaremasters.me/discord' },
       { text: 'GitHub', link: 'https://github.com/guilds-plugin' },
     ],
-  }
+    sidebar: {
+      '/': [
+        {
+          title: 'Project Introduction',
+          collapsable: false,
+          children: [
+            '/project/introduction.md',
+            '/project/about.md',
+          ]
+        },
+        {
+          title: 'Installation',
+          collapsable: false,
+          children: [
+            '/install/prerequisites.md',
+            '/install/install.md',
+          ]
+        }
+      ],
+    },
+  },
 }
