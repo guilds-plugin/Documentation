@@ -36,3 +36,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## Credits
+
+The Guilds Project is a completely open source project so we'd like to give thanks to a number of libraries that we use in order to make the plugin function as it does.
