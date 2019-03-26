@@ -38,10 +38,9 @@ module.exports = {
           ]
         },
         {
-          title: 'Installation',
+          title: 'Setup',
           collapsable: false,
           children: [
-            '/install/prerequisites.md',
             '/install/install.md',
           ]
         }
