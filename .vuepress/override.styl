@@ -24,14 +24,10 @@ body
       &:before
         background-color desaturate(lighten($bg-color, 15%), 10%)
         border: 0;
-td
-    color: $text-color!important
-th
+td, th, .content code
     color: $text-color!important
 tr:nth-child(2n)
     background-color: $bg-color!important
-.content code
-    color: $text-color!important
 .search-box
   input
     border-color desaturate(lighten($bg-color, 30%), 30%)
@@ -58,7 +54,12 @@ h2#first-time-setup + ol > li > code
 #update-check > code,
 #essentials-chat > code,
 #worldguard-claims > code,
-#guild-list > code
+#guild-list > code,
+#guild-buffs > code,
+#requirements > code,
+#blacklist > code,
+#format > code,
+#configuration + p > code
     background-color: #282c34;
     border-width: 1px;
     font-size: .875rem;
@@ -169,14 +170,6 @@ hr
       color desaturate(lighten($bg-color, 50%), 50%)
   .footer
     color desaturate(lighten($bg-color, 50%), 50%)
-h1
-    color $text-color
-h2
-    color $text-color
-h3
-    color $text-color
-p
-    color $text-color
-li
+h1, h2, h3, p, li
     color $text-color
   

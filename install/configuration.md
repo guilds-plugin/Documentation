@@ -1,6 +1,6 @@
 # Configuration
 
-The **config.yml** file will be created on the first server startup.
+The `config.yml` file will be created on the first server startup.
 
 The config file *should* automatically update with the new additions added in an update.
 
@@ -13,6 +13,13 @@ The config file *should* automatically update with the new additions added in an
 ### Hook Settings
 * [Essentials Chat](#essentials-chat)
 * [WorldGuard Claims](#worldguard-claims)
+### GUI Settings
+* [Guild List](#guild-list)
+* [Guild Buffs](#guild-buffs)
+### Guild Settings
+* [Requirements](#requirements)
+* [Blacklist](#blacklist)
+* [Format](#format)
 
 
 ## Descriptions
@@ -75,7 +82,7 @@ ___
 
 #### `Guild List`
 
-Detailed explanation and configuration for guild claims
+Detailed explanation and configuration of how the Guild List works.
 
 **Example**
 ```YAML
@@ -108,6 +115,15 @@ Detailed explanation and configuration for guild claims
         - '&cTier&8: &a{guild-tier}'
         - '&cBalance&8: &a{guild-balance}'
         - '&cMember Count&8: &a{guild-member-count}'
+```
+___
+
+#### `Guild Buffs`
+
+Detailed explanation and configuration of how Guild Buffs work.
+
+**Example**
+```YAML
     guild-buffs:
         # What should the name of the inventory be?
         gui-name: Guild Buffs
@@ -275,5 +291,50 @@ Detailed explanation and configuration for guild claims
             - '&bregeneration for a certain amount of time.'
             # Do you want this buff to show in-game?
             display: true
+```
+### Guild
+
+### `Requirements`
+
+Configuration requirements for the characters allowed to be used in the name and the prefix.
+
+
+**Example**
+```YAML
+# With the default RegEx currently set, the minimum length of the prefix is 1 and the maximum is 64.
+# To change this, adjust the number and you can refer to the link below on how to modify RegEx.
+# RegEx (https://en.wikipedia.org/wiki/Regular_expression) used to only allow certain characters (default only allows alphanumeric characters).
+# To turn off the ability to use colors, remove the & from the RegEx.
+name: '[a-zA-Z0-9&]{1,64}'
+prefix: '[a-zA-Z0-9&]{1,20}'
+```
+___
+
+### `Blacklist`
+
+Configuration for blacklisting names and phrases to be used for Guild names and prefixes.
+
+**Example**
+```YAML
+# Do we want to enable the blacklist?
+enabled: true
+# What words would you like to blacklist from being used?
+words: 
+- crap
+- ass
+- stupid
+```
+___
+
+#### `Format`
+
+Configuration for setting up the chat format for guild chat and the admin spy chat.
+
+**Example**
+```YAML
+# This is the style used when a message sent in guild chat.
+chat: '&7&l[Guild Chat]&r &b[{role}&b]&r &b {player}: {message}'
+# Similar to the one above, just for the admins spying.
+spy: '&7&l[Guild Spy]&r &b[{guild}&b]&r &b[{role}&b]&r &b {player}: {message}'
 ```
 ___
