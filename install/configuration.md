@@ -6,7 +6,13 @@ The config file *should* automatically update with the new additions added in an
 
 ## Table of Contents
 
-// Content Soon
+### Important Settings
+* [Plugin Announcements](#announcements)
+* [Messages Language](#messageslanguage)
+* [Update Checking](#update-check)
+### Hook Settings
+* [Essentials Chat](#essentials-chat)
+* [WorldGuard Claims](#worldguard-claims)
 
 
 ## Descriptions
@@ -269,4 +275,5 @@ Detailed explanation and configuration for guild claims
             - '&bregeneration for a certain amount of time.'
             # Do you want this buff to show in-game?
             display: true
-            ```
+```
+___
