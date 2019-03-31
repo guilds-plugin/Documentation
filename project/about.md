@@ -11,6 +11,12 @@
 
 This project could not have been created with the constant help of others in the community that are also inspired to help create an awesome RPG community on servers!
 
+## Special Thanks
+
+A special thanks to our friends at Jetbrains for providing us with the tools that help us provide you these awesome updates with all their developer tools.
+
+[![Jetbrains](../.vuepress/public/jetbrains.png)](https://jetbrains.com/?from=TheGuildsProject)
+
 ## License
 
 ```
