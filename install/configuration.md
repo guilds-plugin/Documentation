@@ -7,24 +7,37 @@ The config file *should* automatically update with the new additions added in an
 ## Table of Contents
 
 ### Important Settings
+
 * [Plugin Announcements](#announcements)
 * [Messages Language](#messageslanguage)
 * [Update Checking](#update-check)
+
 ### Hook Settings
+
 * [Essentials Chat](#essentials-chat)
 * [WorldGuard Claims](#worldguard-claims)
+
 ### GUI Settings
+
 * [Guild List](#guild-list)
 * [Guild Buffs](#guild-buffs)
+
 ### Guild Settings
+
 * [Requirements](#requirements)
 * [Blacklist](#blacklist)
 * [Format](#format)
+* [Damage](#damage)
 
+### Timers
+
+* [Cooldowns](#cooldowns)
+* [Warmups](#warmups)
 
 ## Descriptions
 
 ### Settings
+
 #### `announcements`
 
 The part of the config that controls the announcements from the plugin developer to servers OPs and Owners.
@@ -32,10 +45,12 @@ The part of the config that controls the announcements from the plugin developer
 This can be used in a few instances such as letting them know of an important bug to be aware of, if there's an update ready to go, or general messages that the developer finds important for the users to know.
 
 **Example**
+
 ```YAML
 console: true
 in-game: true
 ```
+
 ___
 
 #### `messagesLanguage`
@@ -336,5 +351,44 @@ Configuration for setting up the chat format for guild chat and the admin spy ch
 chat: '&7&l[Guild Chat]&r &b[{role}&b]&r &b {player}: {message}'
 # Similar to the one above, just for the admins spying.
 spy: '&7&l[Guild Spy]&r &b[{guild}&b]&r &b[{role}&b]&r &b {player}: {message}'
+```
+___
+
+#### `Damage`
+
+Configuration for modifying if a player is allowed to damage other people in their guild / ally
+
+**Example**
+```YAML
+# Do we want people in the same guild to be able to damage each other?
+guild: false
+# Do we want allies to be able to damage each other?
+ally: false
+```
+___
+
+### Timers
+
+#### `Cooldowns`
+
+Configuration for modifying the cooldown of some commands
+
+**Example**
+```YAML
+# How often (in seconds) can a player set their guild home?
+sethome: 60
+# How often (in seconds) can a player go to their guild home?
+home: 60
+```
+___
+
+#### `Warmups`
+
+Configuration for modifying the warmup of actions
+
+**Example**
+```YAML
+# How long should a user have to stand still before teleporting?
+home: 3
 ```
 ___
