@@ -39,6 +39,12 @@ The config file *should* automatically update with the new additions added in an
 * [Creation](#cost)
 * [Home Setting](#cost)
 
+### Claims
+
+* [Radius](#radius)
+* [Intro and Exit Messages](#intro-and-exit-messages)
+* [Disabled Worlds](#disabled-worlds)
+
 ## Descriptions
 
 ### Settings
@@ -422,5 +428,27 @@ This is the number of blocks around the player it will try to create the region.
 **Example**
 ```YAML
 radius: 15
+```
+___
+
+#### `Intro and Exit Messages`
+
+Customize the entrance and exit message of joining claims. Supports {prefix} for guild prefix and {guild} for guild name. Also supports color codes!
+
+**Example**
+```YAML
+enter-message: '&aNow entering &d{guild}''s &aclaim!'
+exit-message: '&aNow leaving &d{guild}''s &aclaim!'
+```
+___
+
+#### `Disabled Worlds`
+
+Would you like to disable guild claiming in specific worlds?
+
+**Example**
+```YAML
+disabled-worlds:
+- ''
 ```
 ___
