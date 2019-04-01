@@ -34,6 +34,11 @@ The config file *should* automatically update with the new additions added in an
 * [Cooldowns](#cooldowns)
 * [Warmups](#warmups)
 
+### Costs
+
+* [Creation](#cost)
+* [Home Setting](#cost)
+
 ## Descriptions
 
 ### Settings
@@ -390,5 +395,32 @@ Configuration for modifying the warmup of actions
 ```YAML
 # How long should a user have to stand still before teleporting?
 home: 3
+```
+___
+
+### Cost
+
+The cost section is pretty simple. You can set a price for a few things in the plugin.
+
+**Example**
+```YAML
+# How much should it cost to create a guild?
+creation: 0.0
+# How much should it cost to set the cost of the guild home?
+sethome: 0.0
+```
+___
+
+### Claims
+
+This section of the config will allow you to handle guild land claiming. Remember that the enable / disable for this is the WorldGuard Hook at the TOP of the config. here are multiple options when it comes to guild claims. For the time being, all guilds will only get one claim. (Soon to be expected to change in 3.5 or 3.6)
+
+#### `Radius`
+
+This is the number of blocks around the player it will try to create the region. Keep in mind this is the RADIUS, it will go this many blocks in both directions. For example, if you take the default 15, it'll do 30 total as it will go 15 blocks in both directions. This is a CUBOID region, not SPHERE.
+
+**Example**
+```YAML
+radius: 15
 ```
 ___
