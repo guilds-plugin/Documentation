@@ -45,6 +45,11 @@ The config file *should* automatically update with the new additions added in an
 * [Intro and Exit Messages](#intro-and-exit-messages)
 * [Disabled Worlds](#disabled-worlds)
 
+### Tablist
+
+* [Enabled / Disabled Options](#enabled-disabled-options)
+* [Format](#format-2)
+
 ## Descriptions
 
 ### Settings
@@ -452,3 +457,26 @@ disabled-worlds:
 - ''
 ```
 ___
+
+### Tablist
+
+#### `Enabled / Disabled Options`
+
+```YAML
+tablist:
+# Should the plugin use the built-in tablist?
+enabled: false
+# Would you like to display a user's display name instead of their MC username?
+display-name: false
+```
+___
+
+#### `Format`
+
+Change how the Prefixes in the TabList show!
+Note: DO NOT REMOVE THE {guild}.
+You can use {prefix} to show the Guild Prefix instead if you would like.
+
+```YAML
+format: '&7[&b{guild}&7]&r'
+```
