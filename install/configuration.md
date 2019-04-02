@@ -56,6 +56,12 @@ The config file *should* automatically update with the new additions added in an
 * [Lore](#lore)
 * [Material](#material)
 
+### Codes
+
+* [Length](#length)
+* [List Inactive Codes](#list-inactive-codes)
+* [Amount](#amount)
+
 ## Descriptions
 
 ### Settings
@@ -519,5 +525,36 @@ What do you want the material of the ticket to be?
 **Example**
 ```YAML
 material: PAPER
+```
+___
+
+### Codes
+
+#### `Length`
+How long do you want the default length of guild codes to be?
+
+**Example**
+```YAML
+length: 7
+```
+___
+
+#### `List Inactive Codes`
+
+Do you want inactive codes (no uses left) to display on the /guild code list?
+
+**Example**
+```YAML
+list-inactive-codes: true
+```
+___
+
+#### `Amount`
+
+What is the max amount of active codes you would like to allow per guild?
+
+**Example**
+```YAML
+amount: 10
 ```
 ___
