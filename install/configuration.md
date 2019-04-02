@@ -50,6 +50,12 @@ The config file *should* automatically update with the new additions added in an
 * [Enabled / Disabled Options](#enabled-disabled-options)
 * [Format](#format-2)
 
+### Tickets
+
+* [Name](#name)
+* [Lore](#lore)
+* [Material](#material)
+
 ## Descriptions
 
 ### Settings
@@ -66,7 +72,6 @@ This can be used in a few instances such as letting them know of an important bu
 console: true
 in-game: true
 ```
-
 ___
 
 #### `messagesLanguage`
@@ -462,6 +467,7 @@ ___
 
 #### `Enabled / Disabled Options`
 
+**Example**
 ```YAML
 tablist:
 # Should the plugin use the built-in tablist?
@@ -477,6 +483,41 @@ Change how the Prefixes in the TabList show!
 Note: DO NOT REMOVE THE {guild}.
 You can use {prefix} to show the Guild Prefix instead if you would like.
 
+**Example**
 ```YAML
 format: '&7[&b{guild}&7]&r'
 ```
+___
+
+### Tickets
+
+#### `Name`
+
+What do you want the name of the upgrade ticket to be?
+
+**Example**
+```YAML
+name: '&bGuild Upgrade Ticket'
+```
+___
+
+#### `Lore`
+
+What do you want the lore of the ticket to be?
+
+**Example**
+```YAML
+lore: 
+- '&dRight click this ticket to upgrade your guild tier!'
+```
+___
+
+#### `Material`
+
+What do you want the material of the ticket to be?
+
+**Example**
+```YAML
+material: PAPER
+```
+___
