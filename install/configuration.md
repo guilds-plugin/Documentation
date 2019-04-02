@@ -67,6 +67,10 @@ The config file *should* automatically update with the new additions added in an
 * [Carry Over](#carry-over)
 * [Tier Overview](#tier-overview)
 
+### Roles
+
+* [Role Overview](#role-overview)
+
 ## Descriptions
 
 ### Settings
@@ -649,6 +653,169 @@ ___
             # If you wish to give this tier extra permissions, put them here.
             permissions: 
             - ''
+```
+___
+
+### Roles
+
+#### `Role Overview`
+
+**Example**
+```YAML
+roles:
+    0:
+    # The name of the role
+        name: GuildMaster
+        # The permission node of the roll
+        permission-node: guilds.role.master
+        permissions:
+        # Can they buy buffs?
+            activate-buff: true
+            # Can they add allies?
+            add-ally: true
+            # Can they talk to allies?
+            ally-chat: true
+            # Can they set the home?
+            change-home: true
+            # Can they change the prefix?
+            change-prefix: true
+            # Can they rename the guild?
+            rename: true
+            # Can they talk in guild chat?
+            chat: true
+            # Can they demote others?
+            demote: true
+            # Can they put money in the bank?
+            deposit-money: true
+            # Can they invite others?
+            invite: true
+            # Can they kick others?
+            kick: true
+            # Can they open the guild vault?
+            open-vault: true
+            # Can they promote others?
+            promote: true
+            # Can they remove allies?
+            remove-ally: true
+            # Can they delete the guild?
+            remove-guild: true
+            # Can they toggle the status of the guild?
+            toggle-guild: true
+            # Can they transfer the guild to someone else?
+            transfer-guild: true
+            # Can they upgrade the guild?
+            upgrade-guild: true
+            # Can they take money from the bank?
+            withdraw-money: true
+            # Can they claim land?
+            claim-land: true
+            # Can they unclaim land?
+            unclaim-land: true
+            # Can they destroy blocks in claims?
+            destroy: true
+            # Can they place blocks in claims?
+            place: true
+            # Can they interact with blocks in claims?
+            interact: true
+            # Can they create codes?
+            create-code: true
+            # Can they delete codes?
+            delete-code: true
+            # Can they see who redeemed codes?
+            see-code-redeemers: true
+    1:
+        name: Officer
+        permission-node: guilds.role.officer
+        permissions:
+            activate-buff: false
+            add-ally: true
+            ally-chat: true
+            change-home: true
+            change-prefix: false
+            rename: false
+            chat: true
+            demote: true
+            deposit-money: true
+            invite: true
+            kick: true
+            open-vault: true
+            promote: true
+            remove-ally: true
+            remove-guild: false
+            toggle-guild: false
+            transfer-guild: false
+            upgrade-guild: false
+            withdraw-money: true
+            claim-land: false
+            unclaim-land: false
+            destroy: true
+            place: true
+            interact: true
+            create-code: true
+            delete-code: true
+            see-code-redeemers: true
+    2:
+        name: Veteran
+        permission-node: guilds.role.veteran
+        permissions:
+            activate-buff: false
+            add-ally: false
+            ally-chat: true
+            change-home: false
+            change-prefix: false
+            rename: false
+            chat: true
+            demote: false
+            deposit-money: true
+            invite: true
+            kick: false
+            open-vault: true
+            promote: false
+            remove-ally: false
+            remove-guild: false
+            toggle-guild: false
+            transfer-guild: false
+            upgrade-guild: false
+            withdraw-money: false
+            claim-land: false
+            unclaim-land: false
+            destroy: true
+            place: true
+            interact: true
+            create-code: false
+            delete-code: false
+            see-code-redeemers: false
+    3:
+        name: Member
+        permission-node: guilds.role.member
+        permissions:
+            activate-buff: false
+            add-ally: false
+            ally-chat: true
+            change-home: false
+            change-prefix: false
+            rename: false
+            chat: true
+            demote: false
+            deposit-money: true
+            invite: false
+            kick: false
+            open-vault: true
+            promote: false
+            remove-ally: false
+            remove-guild: false
+            toggle-guild: false
+            transfer-guild: false
+            upgrade-guild: false
+            withdraw-money: false
+            claim-land: false
+            unclaim-land: false
+            destroy: true
+            place: true
+            interact: true
+            create-code: false
+            delete-code: false
+            see-code-redeemers: false
 ```
 ___
 
