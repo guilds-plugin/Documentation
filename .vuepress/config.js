@@ -19,7 +19,8 @@ module.exports = {
   ],
   plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/last-updated'
+    '@vuepress/last-updated',
+    '@vuepress/pwa'
   ],
   base: '/',
   title: 'Guilds',
