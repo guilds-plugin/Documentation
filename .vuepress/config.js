@@ -17,6 +17,10 @@ module.exports = {
     ['meta', { name: 'msapplication-config', content: '/favicons/browserconfig.xml' }],
     ['meta', { name: 'theme-color', content: '#151515' }],
   ],
+  plugins: [
+    '@vuepress/back-to-top',
+    '@vuepress/last-updated'
+  ],
   base: '/',
   title: 'Guilds',
   description: 'The easiest way to make the most out of RPG on your servers.',
