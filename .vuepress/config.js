@@ -20,8 +20,12 @@ module.exports = {
   plugins: [
     '@vuepress/back-to-top',
     '@vuepress/last-updated',
-    '@vuepress/pwa'
   ],
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-attrs'))
+    }
+  },
   base: '/',
   title: 'Guilds',
   description: 'The easiest way to make the most out of RPG on your servers.',

@@ -75,7 +75,7 @@ The config file *should* automatically update with the new additions added in an
 
 ### Settings
 
-#### `announcements`
+#### `announcements`{#config-option}
 
 The part of the config that controls the announcements from the plugin developer to servers OPs and Owners.
 
@@ -89,7 +89,7 @@ in-game: true
 ```
 ___
 
-#### `messagesLanguage`
+#### `messagesLanguage`{#config-option}
 
 Choosing your language for the plugin is pretty simple. In the language folder (`/Guilds/languages/`), you can see a list of all the languages that are currently in the plugin. Please understand that not all languages are fully translated, but you can finish a translation and submit it if interested!
 
@@ -99,7 +99,7 @@ messagesLanguage: en-US
 ```
 ___
 
-#### `update-check`
+#### `update-check`{#config-option}
 
 Would you like to check for plugin updates on startup? It's highly suggested you keep this enabled!
 
@@ -110,7 +110,7 @@ update-check: true
 ___
 ### Hooks
 
-#### `essentials-chat`
+#### `essentials-chat`{#config-option}
 
 Do we want to hook into Essentials-Chat format to handle guild placeholders?
 
@@ -120,7 +120,7 @@ essentials-chat: false
 ```
 ___
 
-#### `worldguard-claims`
+#### `worldguard-claims`{#config-option}
 
 Do we want to hook into WorldGuard to allow claiming land?
 
@@ -131,7 +131,7 @@ worldguard-claims: false
 ___
 ### GUIs
 
-#### `Guild List`
+#### `Guild List`{#config-option}
 
 Detailed explanation and configuration of how the Guild List works.
 
@@ -169,7 +169,7 @@ Detailed explanation and configuration of how the Guild List works.
 ```
 ___
 
-#### `Guild Buffs`
+#### `Guild Buffs`{#config-option}
 
 Detailed explanation and configuration of how Guild Buffs work.
 
@@ -345,7 +345,7 @@ Detailed explanation and configuration of how Guild Buffs work.
 ```
 ### Guild
 
-### `Requirements`
+#### `Requirements`{#config-option}
 
 Configuration requirements for the characters allowed to be used in the name and the prefix.
 
@@ -361,7 +361,7 @@ prefix: '[a-zA-Z0-9&]{1,20}'
 ```
 ___
 
-### `Blacklist`
+#### `Blacklist`{#config-option}
 
 Configuration for blacklisting names and phrases to be used for Guild names and prefixes.
 
@@ -377,7 +377,7 @@ words:
 ```
 ___
 
-#### `Format`
+#### `Format`{#config-option}
 
 Configuration for setting up the chat format for guild chat and the admin spy chat.
 
@@ -390,7 +390,7 @@ spy: '&7&l[Guild Spy]&r &b[{guild}&b]&r &b[{role}&b]&r &b {player}: {message}'
 ```
 ___
 
-#### `Damage`
+#### `Damage`{#config-option}
 
 Configuration for modifying if a player is allowed to damage other people in their guild / ally
 
@@ -405,7 +405,7 @@ ___
 
 ### Timers
 
-#### `Cooldowns`
+#### `Cooldowns`{#config-option}
 
 Configuration for modifying the cooldown of some commands
 
@@ -418,7 +418,7 @@ home: 60
 ```
 ___
 
-#### `Warmups`
+#### `Warmups`{#config-option}
 
 Configuration for modifying the warmup of actions
 
@@ -446,7 +446,7 @@ ___
 
 This section of the config will allow you to handle guild land claiming. Remember that the enable / disable for this is the WorldGuard Hook at the TOP of the config. here are multiple options when it comes to guild claims. For the time being, all guilds will only get one claim. (Soon to be expected to change in 3.5 or 3.6)
 
-#### `Radius`
+#### `Radius`{#config-option}
 
 This is the number of blocks around the player it will try to create the region. Keep in mind this is the RADIUS, it will go this many blocks in both directions. For example, if you take the default 15, it'll do 30 total as it will go 15 blocks in both directions. This is a CUBOID region, not SPHERE.
 
@@ -456,7 +456,7 @@ radius: 15
 ```
 ___
 
-#### `Intro and Exit Messages`
+#### `Intro and Exit Messages`{#config-option}
 
 Customize the entrance and exit message of joining claims. Supports {prefix} for guild prefix and {guild} for guild name. Also supports color codes!
 
@@ -467,7 +467,7 @@ exit-message: '&aNow leaving &d{guild}''s &aclaim!'
 ```
 ___
 
-#### `Disabled Worlds`
+#### `Disabled Worlds`{#config-option}
 
 Would you like to disable guild claiming in specific worlds?
 
@@ -480,7 +480,7 @@ ___
 
 ### Tablist
 
-#### `Enabled / Disabled Options`
+#### `Enabled / Disabled Options`{#config-option}
 
 **Example**
 ```YAML
@@ -492,7 +492,7 @@ display-name: false
 ```
 ___
 
-#### `Format`
+#### `Format`{#config-option}
 
 Change how the Prefixes in the TabList show!
 Note: DO NOT REMOVE THE {guild}.
@@ -506,7 +506,7 @@ ___
 
 ### Tickets
 
-#### `Name`
+#### `Name`{#config-option}
 
 What do you want the name of the upgrade ticket to be?
 
@@ -516,7 +516,7 @@ name: '&bGuild Upgrade Ticket'
 ```
 ___
 
-#### `Lore`
+#### `Lore`{#config-option}
 
 What do you want the lore of the ticket to be?
 
@@ -527,7 +527,7 @@ lore:
 ```
 ___
 
-#### `Material`
+#### `Material`{#config-option}
 
 What do you want the material of the ticket to be?
 
@@ -539,7 +539,7 @@ ___
 
 ### Codes
 
-#### `Length`
+#### `Length`{#config-option}
 How long do you want the default length of guild codes to be?
 
 **Example**
@@ -548,7 +548,7 @@ length: 7
 ```
 ___
 
-#### `List Inactive Codes`
+#### `List Inactive Codes`{#config-option}
 
 Do you want inactive codes (no uses left) to display on the /guild code list?
 
@@ -558,7 +558,7 @@ list-inactive-codes: true
 ```
 ___
 
-#### `Amount`
+#### `Amount`{#config-option}
 
 What is the max amount of active codes you would like to allow per guild?
 
@@ -572,7 +572,7 @@ ___
 
 This section of the config will talk about various parts of upgrading a guild and allow you to choose how it works. For "mob-xp-multiplier" the default is 1, meaning that it will drop the normal amount of XP for non-upgraded guilds. DO NOT set it to 0, that will either throw errors or cause mobs to not drop XP. Keep in mind for the damage-multiplier, it applies to players also, so by default it's set to normal for every tier.
 
-#### `Carry Over`
+#### `Carry Over`{#config-option}
 
 Should permissions carry over between tiers?
 
@@ -582,7 +582,7 @@ carry-over: true
 ```
 ___
 
-#### `Tier Overview`
+#### `Tier Overview`{#config-option}
 
 **Example**
 ```YAML
@@ -658,7 +658,7 @@ ___
 
 ### Roles
 
-#### `Role Overview`
+#### `Role Overview`{#config-option}
 
 **Example**
 ```YAML

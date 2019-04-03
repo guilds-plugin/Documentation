@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
-    "@vuepress/plugin-pwa": "^1.0.0-alpha.46"
+    "markdown-it-attrs": "^2.3.2"
   }
 }
