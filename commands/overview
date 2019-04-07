@@ -22,7 +22,7 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#151515">
     
-    <link rel="preload" href="/assets/css/0.styles.312f1517.css" as="style"><link rel="preload" href="/assets/js/app.243e70f4.js" as="script"><link rel="preload" href="/assets/js/2.86f39e96.js" as="script"><link rel="preload" href="/assets/js/5.7e4e0815.js" as="script"><link rel="prefetch" href="/assets/js/10.7b018064.js"><link rel="prefetch" href="/assets/js/11.417c6d1b.js"><link rel="prefetch" href="/assets/js/3.afbae14d.js"><link rel="prefetch" href="/assets/js/4.9ef9e3fb.js"><link rel="prefetch" href="/assets/js/6.1383fda4.js"><link rel="prefetch" href="/assets/js/7.9dce6e0d.js"><link rel="prefetch" href="/assets/js/8.e28d3854.js"><link rel="prefetch" href="/assets/js/9.974cda98.js">
+    <link rel="preload" href="/assets/css/0.styles.312f1517.css" as="style"><link rel="preload" href="/assets/js/app.8c4b8d30.js" as="script"><link rel="preload" href="/assets/js/2.86f39e96.js" as="script"><link rel="preload" href="/assets/js/5.7e4e0815.js" as="script"><link rel="prefetch" href="/assets/js/10.7b018064.js"><link rel="prefetch" href="/assets/js/11.417c6d1b.js"><link rel="prefetch" href="/assets/js/3.afbae14d.js"><link rel="prefetch" href="/assets/js/4.9ef9e3fb.js"><link rel="prefetch" href="/assets/js/6.1383fda4.js"><link rel="prefetch" href="/assets/js/7.9dce6e0d.js"><link rel="prefetch" href="/assets/js/8.e28d3854.js"><link rel="prefetch" href="/assets/js/9.974cda98.js">
     <link rel="stylesheet" href="/assets/css/0.styles.312f1517.css">
   </head>
   <body>
@@ -43,11 +43,7 @@ If a user has an active action, it will cancel it and not proceed further with w
 If a user has an active action, it will confirm the action and continue with what they were attempting to do.</p> <hr> <h2 id="admin-commands"><a href="#admin-commands" aria-hidden="true" class="header-anchor">#</a> Admin Commands</h2> <p>Admin commands are basically self-understandable. They give you the power over how the plugin is used and can do many things to modify how the plugin works.</p> <p><code class="command">/guild admin addplayer &lt;player&gt; &lt;guild&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
 Allows you to put a player into a guild by force.</p> <hr> <p><code class="command">/guild admin prefix &lt;guild&gt; &lt;prefix&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
 Allows you to change the prefix of a guild by force.</p> <hr> <p><code class="command">/guild admin remove &lt;guild&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
-Allows you to remove a guild as a whole by force.</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/7/2019, 6:03:42 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
-        ←
-        <a href="/install/configuration.html" class="prev">
-          Configuration
-        </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
-    <script src="/assets/js/app.243e70f4.js" defer></script><script src="/assets/js/2.86f39e96.js" defer></script><script src="/assets/js/5.7e4e0815.js" defer></script>
+Allows you to remove a guild as a whole by force.</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/7/2019, 6:03:42 AM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.8c4b8d30.js" defer></script><script src="/assets/js/2.86f39e96.js" defer></script><script src="/assets/js/5.7e4e0815.js" defer></script>
   </body>
 </html>
