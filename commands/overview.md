@@ -107,7 +107,43 @@ ___
 **Permission**: guilds.command.bank.deposit  
 Allows you to put money from your balance into your guild bank!
 ___
-`/guild bank withdraw <amount>`{.command}
+`/guild bank withdraw <amount>`{.command}  
 **Permission**: guilds.command.bank.withdraw  
 Allows you to take money from your guild bank and put it back into your personal balance!
+___
+
+## Claim Commands
+Another cool feature of this plugin is the ability to make claims! This is ultilized through the WorldGuard Hook and allows players to "claim" land for their guild members to use.
+
+`/guild claim`{.command}  
+**Permission**: guilds.command.claim  
+Create a guild claim surrounding you!
+___
+`/guild unclaim`{.command}  
+**Permission**: guilds.command.unclaim  
+Get rid of your current guild claim!
+___
+
+## Code Commands
+This feature is actually a new one at the time of writing this wiki. The idea came to me when I realized I wanted to allow a group of my friends to join my guild but at the time I didn't know all their usernames. This feature allows you to create an invite code with the option of one-time-usage or multiple-uses and you can give it to anyone, then they can use that code to join the guild at any time!
+
+`/guild code create [uses]`{.command}  
+**Permission**: guilds.command.code.create  
+Create an invite code for your guild that can be used by anyone!
+___
+`/guild code delete <code>`{.command}  
+**Permission**: guilds.command.code.delete  
+Remove an invite code from your guild
+___
+`/guild code info <code>`{.command}  
+**Permission**: guilds.command.code.info  
+Allows you to retrieve specific information about a guild code!
+___
+`/guild code list`{.command}  
+**Permission**: guilds.command.code.list  
+Allows you to list all your current guild codes!
+___
+`/guild code redeem <code>`{.command}  
+**Permission**: guilds.command.code.redeem  
+Allows you to redeem an invite code!
 ___
