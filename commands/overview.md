@@ -46,3 +46,28 @@ ___
 `/guild admin remove <guild>`{.command}  
 **Permission**: guilds.command.admin  
 Allows you to remove a guild as a whole by force.
+___
+`/guild admin removeplayer <player>`{.command}  
+**Permission**: guilds.command.admin  
+Allows you to remove a player from their guild by force.
+___
+`/guild admin rename <guild> <new name>`{.command}  
+**Permission**: guilds.command.admin  
+Allows you change the current name of a guild by force.
+___
+`/guild admin spy`{.command}  
+**Permission**: guilds.command.admin  
+Toggles the ability to see all guild chat.
+___
+`/guild admin status <guild>`{.command}  
+**Permission**: guilds.command.admin  
+Toggle the status of a guild by force.
+___
+`/guild admin upgrade <guild>`{.command}  
+**Permission**: guilds.command.admin  
+Force upgrade a guild's tier.
+___
+`/guild admin vault <guild> <vault #>`{.command}  
+**Permission**: guilds.command.admin  
+Open any guild's vault
+___
