@@ -147,3 +147,19 @@ ___
 **Permission**: guilds.command.code.redeem  
 Allows you to redeem an invite code!
 ___
+
+// Add Home Commands
+
+## Role Commands
+Role adjustment commands such as promoting and demoting.
+
+`/guild promote <player>`{.command}  
+**Permission**: guilds.command.promote  
+Promote another player in the guild to a higher role
+___
+`/guild demote <player>`{.command}  
+**Permission**: guilds.command.demote  
+Demote another player in the guild to a lower role
+___
+
+// Add General Commands
