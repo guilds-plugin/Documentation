@@ -22,7 +22,7 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#151515">
     
-    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.48a25e2b.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/5.370ae2fb.js" as="script"><link rel="prefetch" href="/assets/js/10.75fde9c0.js"><link rel="prefetch" href="/assets/js/11.00ee5278.js"><link rel="prefetch" href="/assets/js/3.8b52cb15.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/6.9c77afa6.js"><link rel="prefetch" href="/assets/js/7.7b84c30e.js"><link rel="prefetch" href="/assets/js/8.9b90c143.js"><link rel="prefetch" href="/assets/js/9.b9a6a3b0.js">
+    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.448fb22e.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/5.3104ca49.js" as="script"><link rel="prefetch" href="/assets/js/10.75fde9c0.js"><link rel="prefetch" href="/assets/js/11.00ee5278.js"><link rel="prefetch" href="/assets/js/3.8b52cb15.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/6.9c77afa6.js"><link rel="prefetch" href="/assets/js/7.7b84c30e.js"><link rel="prefetch" href="/assets/js/8.9b90c143.js"><link rel="prefetch" href="/assets/js/9.b9a6a3b0.js">
     <link rel="stylesheet" href="/assets/css/0.styles.292e15e1.css">
   </head>
   <body>
@@ -43,7 +43,13 @@ If a user has an active action, it will cancel it and not proceed further with w
 If a user has an active action, it will confirm the action and continue with what they were attempting to do.</p> <hr> <h2 id="admin-commands"><a href="#admin-commands" aria-hidden="true" class="header-anchor">#</a> Admin Commands</h2> <p>Admin commands are basically self-understandable. They give you the power over how the plugin is used and can do many things to modify how the plugin works.</p> <p><code class="command">/guild admin addplayer &lt;player&gt; &lt;guild&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
 Allows you to put a player into a guild by force.</p> <hr> <p><code class="command">/guild admin prefix &lt;guild&gt; &lt;prefix&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
 Allows you to change the prefix of a guild by force.</p> <hr> <p><code class="command">/guild admin remove &lt;guild&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
-Allows you to remove a guild as a whole by force.</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/7/2019, 6:03:42 AM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
-    <script src="/assets/js/app.48a25e2b.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/5.370ae2fb.js" defer></script>
+Allows you to remove a guild as a whole by force.</p> <hr> <p><code class="command">/guild admin removeplayer &lt;player&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
+Allows you to remove a player from their guild by force.</p> <hr> <p><code class="command">/guild admin rename &lt;guild&gt; &lt;new name&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
+Allows you change the current name of a guild by force.</p> <hr> <p><code class="command">/guild admin spy</code><br> <strong>Permission</strong>: guilds.command.admin<br>
+Toggles the ability to see all guild chat.</p> <hr> <p><code class="command">/guild admin status &lt;guild&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
+Toggle the status of a guild by force.</p> <hr> <p><code class="command">/guild admin upgrade &lt;guild&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
+Force upgrade a guild's tier.</p> <hr> <p><code class="command">/guild admin vault &lt;guild&gt; &lt;vault #&gt;</code><br> <strong>Permission</strong>: guilds.command.admin<br>
+Open any guild's vault</p> <hr></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/7/2019, 8:52:56 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.448fb22e.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/5.3104ca49.js" defer></script>
   </body>
 </html>
