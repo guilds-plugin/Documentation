@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
-    "markdown-it-attrs": "^2.3.2"
+    "markdown-it-attrs": "^2.3.2",
+    "vuepress-plugin-clean-urls": "^1.0.3"
   }
 }
