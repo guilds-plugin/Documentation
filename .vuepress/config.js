@@ -21,6 +21,7 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/last-updated',
     'clean-urls',
+    'vuepress-plugin-smooth-scroll',
   ],
   markdown: {
     extendMarkdown: md => {
