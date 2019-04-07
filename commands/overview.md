@@ -71,3 +71,27 @@ ___
 **Permission**: guilds.command.admin  
 Open any guild's vault
 ___
+
+## Ally Commands
+The ally commands are a set of commands that let guild members control different actions such as listing their current allies or adding and removing them!
+
+`/guild ally accept <guild>`{.command}  
+**Permission**: guilds.command.ally.accept  
+This command allows you to accept an ally invite from another guild if there is one currently pending!
+___
+`/guild ally add <guild>`{.command}  
+**Permission**: guilds.command.ally.add
+This command allows you to send an ally request to another guild!
+___
+`/guild ally decline <guild>`{.command}  
+**Permission**: guilds.command.ally.decline  
+This command allows you to decline and incoming ally invite from another guild!
+___
+`/guild ally list`{.command}  
+**Permission**: guilds.command.ally.list  
+This command allows you to list all the allies of your guild!
+___
+`/guild ally remove <guild>`{.command}  
+**Permission**: guilds.command.ally.remove  
+This command allows you to remove any of your current allies!
+___
