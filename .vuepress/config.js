@@ -53,6 +53,13 @@ module.exports = {
             '/install/install.md',
             '/install/configuration.md',
           ]
+        },
+        {
+          title: 'Command Usage',
+          collapsable: false,
+          children: [
+            '/commands/overview.md'
+          ]
         }
       ],
     },
