@@ -95,3 +95,19 @@ ___
 **Permission**: guilds.command.ally.remove  
 This command allows you to remove any of your current allies!
 ___
+
+## Bank Commands
+One of the cool features about this plugin is that it allows each guild to have a centralized bank that all players in a guild can work together to grow!
+
+`/guild bank balance`{.command}  
+**Permission**: guilds.command.bank.balance  
+Allows you to check the current balance of your guild bank!
+___
+`/guild bank deposit <amount>`{.command}  
+**Permission**: guilds.command.bank.deposit  
+Allows you to put money from your balance into your guild bank!
+___
+`/guild bank withdraw <amount>`{.command}
+**Permission**: guilds.command.bank.withdraw  
+Allows you to take money from your guild bank and put it back into your personal balance!
+___
