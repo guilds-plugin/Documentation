@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7607edbb67b7fb341b2fe610c987422e"
+    "revision": "8637923798e9954180cf49c52cf46411"
   },
   {
     "url": "assets/css/0.styles.292e15e1.css",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "revision": "26fbaa3ccbd431eff7fa684b36b99e46"
   },
   {
-    "url": "assets/js/app.54e60e51.js",
-    "revision": "1f7b4c35319c17d0e34f72c85a286a52"
+    "url": "assets/js/app.a98bbbcc.js",
+    "revision": "6c57d2a9307c27717997c7178053f1b2"
   },
   {
     "url": "favicons/android-icon-144x144.png",
@@ -164,6 +164,14 @@ self.__precacheManifest = [
     "revision": "dc8417115770f296b13f97e1cd05af25"
   },
   {
+    "url": "favicons/icon-192x192.png",
+    "revision": "acfdb2fecc89b27d5db8066c178eb565"
+  },
+  {
+    "url": "favicons/icon-512x512.png",
+    "revision": "acfdb2fecc89b27d5db8066c178eb565"
+  },
+  {
     "url": "favicons/ms-icon-144x144.png",
     "revision": "a0683d6ad71bf4c60880c756f35c8a11"
   },
@@ -185,7 +193,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "592e2b81f36bfb6e7f9f001a7402f07c"
+    "revision": "a857e305ff0d3a2d1c218246596a5022"
   },
   {
     "url": "jetbrains.png",
