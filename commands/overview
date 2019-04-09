@@ -18,11 +18,12 @@
   <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/favicons/manifest.json">
+  <link ref="manifest" href="/manifest.webmanifest">
   <link rel="shortcut icon" href="/favicons/favicon.ico">
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#151515">
     
-    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.37e2fcd6.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/5.32abe3dd.js" as="script"><link rel="prefetch" href="/assets/js/10.75fde9c0.js"><link rel="prefetch" href="/assets/js/11.00ee5278.js"><link rel="prefetch" href="/assets/js/3.8b52cb15.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/6.9c77afa6.js"><link rel="prefetch" href="/assets/js/7.7b84c30e.js"><link rel="prefetch" href="/assets/js/8.9b90c143.js"><link rel="prefetch" href="/assets/js/9.b9a6a3b0.js">
+    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.54e60e51.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/5.a4810c64.js" as="script"><link rel="prefetch" href="/assets/js/10.0f295b9f.js"><link rel="prefetch" href="/assets/js/11.00ee5278.js"><link rel="prefetch" href="/assets/js/3.271afdf0.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/6.9c77afa6.js"><link rel="prefetch" href="/assets/js/7.9dce6e0d.js"><link rel="prefetch" href="/assets/js/8.79e891bd.js"><link rel="prefetch" href="/assets/js/9.80be4252.js">
     <link rel="stylesheet" href="/assets/css/0.styles.292e15e1.css">
   </head>
   <body>
@@ -66,7 +67,7 @@ Allows you to retrieve specific information about a guild code!</p> <hr> <p><cod
 Allows you to list all your current guild codes!</p> <hr> <p><code class="command">/guild code redeem &lt;code&gt;</code><br> <strong>Permission</strong>: guilds.command.code.redeem<br>
 Allows you to redeem an invite code!</p> <hr> <p>// Add Home Commands</p> <h2 id="role-commands"><a href="#role-commands" aria-hidden="true" class="header-anchor">#</a> Role Commands</h2> <p>Role adjustment commands such as promoting and demoting.</p> <p><code class="command">/guild promote &lt;player&gt;</code><br> <strong>Permission</strong>: guilds.command.promote<br>
 Promote another player in the guild to a higher role</p> <hr> <p><code class="command">/guild demote &lt;player&gt;</code><br> <strong>Permission</strong>: guilds.command.demote<br>
-Demote another player in the guild to a lower role</p> <hr> <p>// Add General Commands</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/7/2019, 9:20:17 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
-    <script src="/assets/js/app.37e2fcd6.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/5.32abe3dd.js" defer></script>
+Demote another player in the guild to a lower role</p> <hr> <p>// Add General Commands</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/7/2019, 9:20:17 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----><SWUpdatePopup></SWUpdatePopup></div></div>
+    <script src="/assets/js/app.54e60e51.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/5.a4810c64.js" defer></script>
   </body>
 </html>

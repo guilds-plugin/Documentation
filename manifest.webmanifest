@@ -1,0 +1,9 @@
+{
+    "name": "Guilds' Wiki",
+    "short_name": "Guilds",
+    "theme_color": "#151515",
+    "background_color": "#151515",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+  }
