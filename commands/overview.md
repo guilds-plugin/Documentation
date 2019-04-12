@@ -39,6 +39,10 @@ Admin commands are basically self-understandable. They give you the power over h
 **Permission**: guilds.command.admin  
 Allows you to put a player into a guild by force.
 ___
+`/guild admin give <player> <amount>`{.command}  
+**Permission**: guids.command.admin  
+Allows you to give upgrade tickets to players.
+___
 `/guild admin prefix <guild> <prefix>`{.command}  
 **Permission**: guilds.command.admin  
 Allows you to change the prefix of a guild by force.
@@ -70,6 +74,10 @@ ___
 `/guild admin vault <guild> <vault #>`{.command}  
 **Permission**: guilds.command.admin  
 Open any guild's vault
+___
+`/guild reload`{.command}  
+**Permission**: guilds.command.admin  
+Reloads the configuration files.
 ___
 
 ## Ally Commands
@@ -148,7 +156,70 @@ ___
 Allows you to redeem an invite code!
 ___
 
-// Add Home Commands
+## GUI Commands
+
+`/guild buff`{.command}  
+**Permission**: guilds.command.buff  
+Opens the guild buff GUI.
+___
+`/guild list`{.command}  
+**Permission**: guilds.command.list  
+Opens the guild list GUI.
+___
+`/guild vault <#>`{.command}  
+**Permission**: guilds.command.vault  
+Opens a guild vault GUI.
+___
+
+## Homes Commands
+
+`/guild delhome`{.command}  
+**Permission**: guilds.command.delhome  
+Delete your guild home.
+___
+`/guild home`{.command}  
+**Permission**: guilds.command.home  
+Teleport to your guild home.
+___
+`/guild sethome`{.command}  
+**Permission**: guilds.command.sethome  
+Set your guild home to your current location.
+___
+
+## Management Commands
+
+`/guild create <name> [prefix]`{.command}  
+**Permission**: guilds.command.create  
+Create a new guild!
+___
+`/guild delete`{.command}  
+**Permission**: guilds.command.delete  
+Deletes your current guild.
+___
+`/guild kick <player>`{.command}  
+**Permission**: guilds.command.kick  
+Kicks a player from your guild.
+___
+`/guild prefix <prefix>`{.command}  
+**Permission**: guilds.command.prefix  
+Set a new prefix for your guild.
+___
+`/guild rename <name>`{.command}
+**Permission**: guilds.command.rename  
+Set a new name for your guild.
+___
+`/guild status`{.command}  
+**Permission**: guilds.command.status  
+Toggles the status of your guild.
+___
+`/guild transfer <player>`{.command}  
+**Permission**: guilds.command.transfer  
+Transfer your guild to another person.
+___
+`/guild upgrade`{.command}  
+**Permission**: guilds.command.upgrade  
+Upgrade your guild's tier.
+___
 
 ## Role Commands
 Role adjustment commands such as promoting and demoting.
