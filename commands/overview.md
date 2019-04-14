@@ -16,10 +16,6 @@ Since Guilds is such a big project, we knew that it can get repetitive typing ou
 | /g               |
 ___
 
-## Understanding
-
-// Add stuff later
-
 ## Action Commands
 Action commands control the user's choice to proceed with some of the commands in the plugin. We know that some people get curious when playing with commands and we've designed the commands that cause bigger changes to ask for a confirmation.
 
@@ -204,7 +200,7 @@ ___
 **Permission**: guilds.command.prefix  
 Set a new prefix for your guild.
 ___
-`/guild rename <name>`{.command}
+`/guild rename <name>`{.command}  
 **Permission**: guilds.command.rename  
 Set a new name for your guild.
 ___
@@ -221,16 +217,45 @@ ___
 Upgrade your guild's tier.
 ___
 
-## Role Commands
-Role adjustment commands such as promoting and demoting.
+## Member Commands
+Commands handled by members of the server / guild.
 
-`/guild promote <player>`{.command}  
-**Permission**: guilds.command.promote  
-Promote another player in the guild to a higher role
+`/guild accept <name>`{.command}  
+**Permission**: guilds.command.accept  
+Accepted a guild invite from a guild.
+___
+`/guild check`{.command}  
+**Permission**: guilds.command.check  
+Checks to see if a user has any pending guild invites.
+___
+`/ guild decline <name>`{.command}  
+**Permission**: guilds.command.decline  
+Declines a pending guild invite from a guild.
 ___
 `/guild demote <player>`{.command}  
 **Permission**: guilds.command.demote  
-Demote another player in the guild to a lower role
+Demote a player in your guild.
+___
+`/guild invite <player>`{.command}  
+**Permission**: guilds.command.invite  
+Invite a player to your guild.
+___
+`/guild leave`{.command}  
+**Permission**: guilds.command.leave  
+Leave your current guild.
+___
+`/guild promote <player>`{.command}  
+**Permission**: guilds.command.promote  
+Promote a player in your guild.
 ___
 
-// Add General Commands
+## Misc Commands
+Random commands that haven't been categorized yet.
+
+`/guild chat`{.command}  
+**Permission**: guilds.command.chat  
+Toggles the guild chat.
+___
+`/guild request <guild>`{.command}  
+**Permission**: guilds.command.request  
+Send a request to join a guild.
