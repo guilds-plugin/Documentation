@@ -240,6 +240,10 @@ ___
 **Permission**: guilds.command.invite  
 Invite a player to your guild.
 ___
+`/guild language <language>`{.command}  
+**Permission**: guilds.command.language  
+Set the plugin language to your choosing!
+___
 `/guild leave`{.command}  
 **Permission**: guilds.command.leave  
 Leave your current guild.
