@@ -1,4 +1,4 @@
-# Overview
+# Commands
 
 Understanding how the commands work in the project is super simple. All you have to do is type `/guilds` and you will be presented with a very nice-looking help menu!
 

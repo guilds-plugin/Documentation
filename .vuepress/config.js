@@ -65,10 +65,11 @@ module.exports = {
           ]
         },
         {
-          title: 'Command Usage',
+          title: 'General Usage',
           collapsable: false,
           children: [
-            '/commands/overview.md'
+            '/general/commands.md',
+            '/general/placeholders.md'
           ]
         }
       ],
