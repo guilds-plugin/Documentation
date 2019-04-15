@@ -38,9 +38,9 @@ module.exports = {
   },
   base: '/',
   title: 'Guilds',
-  description: 'The easiest way to make the most out of RPG on your servers.',
+  description: 'The easiest way to make the most out of the style of RPG on your network. What are you waiting for?',
   themeConfig: {
-    logo: '/logo-nav.jpg',
+    logo: '/logo-nav.png',
     nav: [
       { text: 'Spigot', link: 'https://www.spigotmc.org/resources/48920/' },
       { text: 'Discord', link: 'https://glaremasters.me/discord' },

@@ -5,7 +5,7 @@ actionText: Get Started →
 actionLink: /project/introduction
 features:
 - title: Open Source!
-  details: Guilds will always be open source, which also means it will always be free to use! Use as you please!
+  details: Guilds will always be open source. Use as you please!
 - title: User Friendly
   details: Guilds is hardcore user friendly and very simple to install! You will have it up in running in less than 5 minutes!
 - title: Actively Developed
