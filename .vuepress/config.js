@@ -69,7 +69,15 @@ module.exports = {
           collapsable: false,
           children: [
             '/general/commands.md',
-            '/general/placeholders.md'
+            '/general/placeholders.md',
+            '/general/features.md'
+          ]
+        },
+        {
+          title: 'Misc Stuff',
+          collapsable: false,
+          children: [
+            '/misc/future.md'
           ]
         }
       ],
