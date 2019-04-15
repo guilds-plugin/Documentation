@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "e61002b4ae59202bf0b2fd918d16cbcd"
+    "revision": "bc815a3eaeee5dc7b4718d97e8018559"
   },
   {
     "url": "assets/css/0.styles.292e15e1.css",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "revision": "2b97d8d1d1cbfc231b7742411129e463"
   },
   {
-    "url": "assets/js/app.1eef1359.js",
-    "revision": "7e0b80d27584f840c48d0b8e98939880"
+    "url": "assets/js/app.3ecb21ef.js",
+    "revision": "0c31a84eef24b9bf23d7df09aec51e2f"
   },
   {
     "url": "favicons/android-icon-144x144.png",
@@ -197,19 +197,19 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "f902f2c2a140f31e05a6405f81e7013c"
+    "revision": "a7fc8116583706ebdf1b65589c4731c5"
   },
   {
     "url": "jetbrains.png",
     "revision": "eae49d50612915dd43858e0f73d50588"
   },
   {
-    "url": "logo-nav.jpg",
-    "revision": "6e7a5751d6d2ce28d2c000d522cf62fe"
+    "url": "logo-nav.png",
+    "revision": "5356779b19fd25216da729e609563d0e"
   },
   {
     "url": "logo.png",
-    "revision": "6069548000d3efec2ac2c1fbc86f41b8"
+    "revision": "58fd15aaac962f2aaf90d24e90eaaca9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
