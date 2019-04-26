@@ -12,6 +12,8 @@
 %guilds_balance%  
 %guilds_tier_name%  
 %guilds_role_node%  
+%guilds_id%  
+%guilds_code_amount%  
 ___
 
 ## MVdWPlaceholderAPI
