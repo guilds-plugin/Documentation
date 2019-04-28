@@ -63,6 +63,10 @@ ___
 **Permission**: guilds.command.admin  
 Toggle the status of a guild by force.
 ___
+`/guild admin update-languages`{.command}  
+**Permission**: guilds.command.admin  
+Re-download the language files for the plugin
+___
 `/guild admin upgrade <guild>`{.command}  
 **Permission**: guilds.command.admin  
 Force upgrade a guild's tier.
