@@ -23,7 +23,7 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#151515">
     
-    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.5939ef92.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/5.443f1220.js" as="script"><link rel="prefetch" href="/assets/js/10.afa0650e.js"><link rel="prefetch" href="/assets/js/11.8ffeaebe.js"><link rel="prefetch" href="/assets/js/12.1777c36f.js"><link rel="prefetch" href="/assets/js/13.f3f9663b.js"><link rel="prefetch" href="/assets/js/14.fbdbb5e9.js"><link rel="prefetch" href="/assets/js/3.e61f74c4.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/6.99123e42.js"><link rel="prefetch" href="/assets/js/7.9ae26ad8.js"><link rel="prefetch" href="/assets/js/8.2bc8fb1b.js"><link rel="prefetch" href="/assets/js/9.a8d62f5d.js">
+    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.b6aa356b.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/5.443f1220.js" as="script"><link rel="prefetch" href="/assets/js/10.afa0650e.js"><link rel="prefetch" href="/assets/js/11.8ffeaebe.js"><link rel="prefetch" href="/assets/js/12.1777c36f.js"><link rel="prefetch" href="/assets/js/13.f3f9663b.js"><link rel="prefetch" href="/assets/js/14.fbdbb5e9.js"><link rel="prefetch" href="/assets/js/3.e61f74c4.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/6.99123e42.js"><link rel="prefetch" href="/assets/js/7.9ae26ad8.js"><link rel="prefetch" href="/assets/js/8.2bc8fb1b.js"><link rel="prefetch" href="/assets/js/9.a8d62f5d.js">
     <link rel="stylesheet" href="/assets/css/0.styles.292e15e1.css">
   </head>
   <body>
@@ -93,6 +93,6 @@ Leave your current guild.</p> <hr> <p><code class="command">/guild promote &lt;p
 Promote a player in your guild.</p> <hr> <h2 id="misc-commands"><a href="#misc-commands" aria-hidden="true" class="header-anchor">#</a> Misc Commands</h2> <p>Random commands that haven't been categorized yet.</p> <p><code class="command">/guild chat</code><br> <strong>Permission</strong>: guilds.command.chat<br>
 Toggles the guild chat.</p> <hr> <p><code class="command">/guild request &lt;guild&gt;</code><br> <strong>Permission</strong>: guilds.command.request<br>
 Send a request to join a guild.</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">4/28/2019, 3:24:05 AM</span></div></footer> <!----> </main></div><div class="global-ui"><!----><SWUpdatePopup></SWUpdatePopup></div></div>
-    <script src="/assets/js/app.5939ef92.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/5.443f1220.js" defer></script>
+    <script src="/assets/js/app.b6aa356b.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/5.443f1220.js" defer></script>
   </body>
 </html>
