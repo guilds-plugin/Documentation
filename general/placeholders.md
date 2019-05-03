@@ -14,6 +14,8 @@
 %guilds_role_node%  
 %guilds_id%  
 %guilds_code_amount%  
+%guilds_max_members%  
+%guilds_max_balance%  
 ___
 
 ## MVdWPlaceholderAPI

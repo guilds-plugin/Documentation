@@ -63,7 +63,7 @@ ___
 **Permission**: guilds.command.admin  
 Toggle the status of a guild by force.
 ___
-`/guild admin update-languages`{.command}  
+`/guild admin update-language`{.command}  
 **Permission**: guilds.command.admin  
 Re-download the language files for the plugin
 ___
