@@ -23,7 +23,7 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#151515">
     
-    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.74121566.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/9.04094036.js" as="script"><link rel="prefetch" href="/assets/js/10.afa0650e.js"><link rel="prefetch" href="/assets/js/11.8ffeaebe.js"><link rel="prefetch" href="/assets/js/12.1777c36f.js"><link rel="prefetch" href="/assets/js/13.f3f9663b.js"><link rel="prefetch" href="/assets/js/14.fbdbb5e9.js"><link rel="prefetch" href="/assets/js/3.e61f74c4.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/5.d3de1d06.js"><link rel="prefetch" href="/assets/js/6.99123e42.js"><link rel="prefetch" href="/assets/js/7.9ae26ad8.js"><link rel="prefetch" href="/assets/js/8.2bc8fb1b.js">
+    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.391e9d0f.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/9.adfbdde0.js" as="script"><link rel="prefetch" href="/assets/js/10.afa0650e.js"><link rel="prefetch" href="/assets/js/11.8ffeaebe.js"><link rel="prefetch" href="/assets/js/12.1777c36f.js"><link rel="prefetch" href="/assets/js/13.f3f9663b.js"><link rel="prefetch" href="/assets/js/14.fbdbb5e9.js"><link rel="prefetch" href="/assets/js/3.e61f74c4.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/5.d3de1d06.js"><link rel="prefetch" href="/assets/js/6.99123e42.js"><link rel="prefetch" href="/assets/js/7.9ae26ad8.js"><link rel="prefetch" href="/assets/js/8.2bc8fb1b.js">
     <link rel="stylesheet" href="/assets/css/0.styles.292e15e1.css">
   </head>
   <body>
@@ -65,7 +65,9 @@
 {GUILD_PREFIX}<br>
 {GUILD_MASTER}<br>
 {GUILD_MEMBER_COUNT}<br>
-{GUILD_MEMBERS_ONLINE}<br></p> <hr></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">5/3/2019, 10:17:03 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----><SWUpdatePopup></SWUpdatePopup></div></div>
-    <script src="/assets/js/app.74121566.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/9.04094036.js" defer></script>
+{GUILD_MEMBERS_ONLINE}<br>
+{GUILD_STATUS}<br>
+{GUILD_ROLE}<br></p> <hr></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">5/4/2019, 2:21:07 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----><SWUpdatePopup></SWUpdatePopup></div></div>
+    <script src="/assets/js/app.391e9d0f.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/9.adfbdde0.js" defer></script>
   </body>
 </html>
