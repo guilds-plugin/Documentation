@@ -51,6 +51,7 @@ The Guilds Project is a completely open source project so we'd like to give than
 |------------------------------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [Lombok](https://github.com/rzwitserloot/lombok)                       | [Reinier Zwitserloot](https://github.com/rzwitserloot) | [MIT License](https://github.com/rzwitserloot/lombok/blob/master/LICENSE)                               |
 | [Annotation Command Framework](https://github.com/aikar/commands)      | [Daniel Ennis](https://github.com/aikar)               | [MIT License](https://github.com/aikar/commands/blob/master/LICENSE)                                    |
+| [TaskChain](https://github.com/aikar/TaskChain)      | [Daniel Ennis](https://github.com/aikar)               | [MIT License](https://github.com/aikar/TaskChain/blob/master/LICENSE)                                    |
 | [JSONMessage](https://github.com/Rayzr522/JSONMessage)                 | [Rayzr522](https://github.com/Rayzr522)                | [MIT License](https://github.com/Rayzr522/JSONMessage/blob/master/LICENSE)                              |
 | [Gson](https://github.com/google/gson)                                 | [Google](https://github.com/google)                    | [Apache License 2.0](https://github.com/google/gson/blob/master/LICENSE)                                |
 | [SimpleJSON](https://github.com/ReflxctionDev/SimpleJSON)              | [ReflxctionDev](https://github.com/ReflxctionDev)      | [Apache License 2.0](https://github.com/ReflxctionDev/SimpleJSON/blob/master/LICENSE)                   |
@@ -60,5 +61,7 @@ The Guilds Project is a completely open source project so we'd like to give than
 | [WorldGuardWrapper](https://github.com/CodeMC/WorldGuardWrapper)       | [CodeMC](https://github.com/CodeMC)                    | [MIT License](https://github.com/CodeMC/WorldGuardWrapper/blob/master/LICENSE)                          |
 | [ConfigMe](https://github.com/AuthMe/ConfigMe)                         | [AuthMe](https://github.com/AuthMe)                    | [MIT License](https://github.com/AuthMe/ConfigMe/blob/master/LICENSE)                                   |
 | [JsonConfiguration](https://github.com/dumptruckman/JsonConfiguration) | [Jeremy Wood](https://github.com/dumptruckman)         | [Mozilla Public License, v. 2.0.](http://mozilla.org/MPL/2.0/)                                          |
+| [IF](https://github.com/stefvanschie/IF) | [stefvanschie](https://github.com/stefvanschie)         | [The Unlicense](https://github.com/stefvanschie/IF/blob/master/LICENSE)                                          |
+| [Zip4J](http://www.lingala.net/zip4j/about.php) | [Srikanth Reddy Lingala](http://www.lingala.net/)         | [Apache License, Version 2.0.](https://www.apache.org/licenses/LICENSE-2.0)                                          |
 
 

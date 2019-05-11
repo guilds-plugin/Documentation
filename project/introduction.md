@@ -9,8 +9,8 @@ Our core platforms that we support include the following:
 
 * Bukkit
 * Spigot
-* Paper
-ya
+* Paper  
+
 ## Getting Support
 
 There are mutliple ways to get support including help from me and others in the community Discord.
