@@ -32,4 +32,4 @@ To get to the Community Discord, you can either click [me](https://glaremasters.
 
 We all know bugs are never fun. The Guilds Project is a fairly big plugin so we ask that if you experience a bug or an issue to please confirm that it is actually caused by us and not by other plugin that might be conflicting with it.
 
-If you have confirmed that there is a bug and would like to report it, you may do so by filling out a report [here](https://github.com/guilds-plugin/Guilds/issues)
+If you have confirmed that there is a bug and would like to report it, you may do so by filling out a report [here](https://github.com/guilds-plugin/Guilds/issues/new/choose)
