@@ -34,6 +34,7 @@ The config file *should* automatically update with the new additions added in an
 * [Blacklist](#blacklist)
 * [Format](#format)
 * [Damage](#damage)
+* [Respect WG PvP](#respect-wg-pvp)
 
 ### Timers
 
@@ -589,11 +590,24 @@ ally: false
 ```
 ___
 
+#### `Respect WG PvP`{#config-option}  
+
+**Example**
+```YAML
+# Do we want to respect WorldGuard flags for PVP deny?
+# This will be checked first before checking same guild and ally.
+# This is ONLY needed if you have either of the above two options to set true.
+# ONLY PUT THIS ON TRUE IF YOU HAVE WORLDGUARD INSTALLED OR YOU WILL BREAK STUFF
+respect-wg-pvp-flag: false
+```
+___
+
 ### Timers
 
 #### `Cooldowns`{#config-option}
 
-Configuration for modifying the cooldown of some commands
+Configuration for modifying the cooldown of some commands.  
+**This is currently disabled due to a bug.**  
 
 **Example**
 ```YAML
