@@ -23,6 +23,10 @@ The config file *should* automatically update with the new additions added in an
 
 * [Guild List](#guild-list)
 * [Guild Buffs](#guild-buffs)
+* [Guild Vault Picker](#vault-picker)
+* [Guild Vaults](#guild-vaults)
+* [Guild Info](#guild-info)
+* [Guild Info Members](#guild-info-members)
 
 ### Guild Settings
 
@@ -368,6 +372,163 @@ Detailed explanation and configuration of how Guild Buffs work.
             # Do you want this buff to show in-game?
             display: true
 ```
+___
+
+#### `Vault Picker`{#config-option}
+
+Here you can control what the GUI looks like that allows players to choose which vault to open.  
+You can do things like set the name of the gui, the material to use, material name, and lore!  
+
+**Example**
+```YAML
+    vault-picker:
+        # What do you want the name of the gui to be?
+        # Currently supports {name} for the name of the guild.
+        name: '&8» &r{name}''s Vaults'
+        # How many rows would you like to display?
+        rows: 1
+        # What do you want the material of the vaults to be?
+        item-material: CHEST
+        # What do you want the name of the vault to be?
+        # I recommend keeping this blank so that we can put the vault number in the lore.
+        item-name: ' '
+        item-lore: 
+        - '&8• &7Vault &9#{number}'
+        - '&8• &7Status: {status}'
+        - ''
+        # What do you want to show when a vault is unlocked?
+        unlocked: '&9Unlocked'
+        # What do you want to show when a vault is locked?
+        locked: '&c&mLocked&r'
+```
+___
+
+#### `Guild Vaults`{#config-option}  
+
+**Example**
+```YAML
+    vault:
+        # What do you want the name of the Vault to be?
+        # Note: This requires a restart to change the inventory names.
+        name: '&8» &rGuild &aVault'
+        blacklist:
+            # What materials would you like to blacklist from being put into the vaults?
+            materials: 
+            - ''
+            # What custom names of items would you like to blacklist from being put into the vaults?
+            names: 
+            - ''
+            # What custom lore do you want to blacklist from being put into the vaults?
+            # Please keep in mind this can be prove to false-positives so please let me know if you have issues.
+            # This will currently loop through your lore to check for any strings you have in the list to check.
+            # Improvements will be made over time. Thanks for your patience and suppport in advanced.
+            lores: 
+            - ''
+```
+___
+
+#### `Guild Info`{#config-option}  
+
+Welcome to the Guild Info GUI section of the config.  
+Here you can modify the configuration of what the Guild Info GUI looks like.  
+This can be used by any member of a Guild and shows key information of the Guild.  
+You can see things like the members, the balance, tier, etc.  
+
+**Example**
+```YAML
+    guild-info:
+        # What would you like the name of the GUI to be?
+        # Currently supports {name} for the name of the guild and {prefix} for the prefix of the guild
+        name: '&8» &r{name}''s Info'
+        # What material do you want the tier button to be?
+        tier-material: DIAMOND
+        # What do you want the name of the tier button to be?
+        tier-name: '&3Guild Tier'
+        # What do you want the lore of the tier button to be?
+        tier-lore: 
+        - '&8• &7Level: &b{tier}'
+        # What material do you want the bank button to be?
+        bank-material: GOLD_INGOT
+        # What do you want the name of the bank button to be?
+        bank-name: '&6Guild Bank'
+        # What do you want the lore of the bank button to be?
+        bank-lore: 
+        - '&8• &7Balance: &e{current} &7/ &e{max}'
+        # What material do you want the members button to be?
+        members-material: IRON_HELMET
+        # What do you want the name of the members button to be?
+        members-name: '&5Guild Members'
+        # What do you want the lore of the members button to be?
+        members-lore: 
+        - '&8• &7Members: &d{current} &7/ &d{max}'
+        - '&8• &7Online: &d{online} &7/ &d{current}'
+        - ''
+        - '&7Click to view members!'
+        status-material:
+            # What material do you want the status button to be when a guild is public?
+            public: EMERALD
+            # What material do you want the status button to be when a guild is private?
+            private: REDSTONE
+        # What do you want the name of the status button to be?
+        status-name-item: '&2Guild Status'
+        status-name:
+            # What do you want the status to say if it's public?
+            public: '&aPublic'
+            # What do you want the status to say if it's private?
+            private: '&cPrivate'
+        # What do you want the lore of the status button to be?
+        status-lore: 
+        - '&8• &7Status: &r{status}'
+        # What material do you want the home button to be?
+        home-material: BED
+        # What do you want the name of the home button to be?
+        home-name: '&cGuild Home'
+        # What do you want the lore of the home button to be?
+        home-lore: 
+        - '&8• &7Home: &f{coords}'
+        # What do you want it to say when a guild doesn't have a home set?
+        home-empty: '&fNot Set'
+        # Do you want players to be teleported to their guild home when they click this?
+        home-teleport: false
+        # What material do you want the vault button to be?
+        vault-material: CHEST
+        # What do you want the name of the home button to be?
+        vault-name: '&9Guild Vaults'
+        # What do you want the lore of the vault button to be?
+        vault-lore: 
+        - '&7Click here to open your guild vaults!'
+```
+___
+
+#### `Guild Info Members`{#config-option}  
+
+This part of the config controls what the members gui looks like.  
+You can get to this in game by clicking on the members icon via the guild info gui.  
+
+```YAML
+    guild-info-members:
+        # What would you like the name of the GUI to be?
+        name: '&8» &rMembers of {name}'
+        item:
+            # What material do you want to use to represent members?
+            material: EMPTY_MAP
+            # What do you want the name of the item to be?
+            name: ' '
+            # What do you want the lore of the item to be?
+            lore: 
+            - '&8• &7Name: &a{name}'
+            - '&8• &7Role: &a{role}'
+            - '&8• &7Status: {status}'
+            - ''
+            # What do you want to be what shows when a member is online?
+            online: '&aOnline'
+            # What do you want to be what shows when a member is offline?
+            offline: '&cOffline'
+```
+___
+
+
+
 ### Guild
 
 #### `Requirements`{#config-option}
