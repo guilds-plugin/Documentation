@@ -10,6 +10,8 @@ The config file *should* automatically update with the new additions added in an
 
 * [Plugin Announcements](#announcements)
 * [Messages Language](#messageslanguage)
+* [Update Languages](#player-update-languages)
+* [Save Interval](#save-interval)
 * [Update Checking](#update-check)
 
 ### Hook Settings
@@ -98,6 +100,29 @@ Choosing your language for the plugin is pretty simple. In the language folder (
 messagesLanguage: en-US
 ```
 ___
+
+#### `player-update-languages`{#config-option}  
+
+Would you like to allow admin players to update the languages via command?  
+If yes, set to true, and they will be able to run /guild admin update-languages  
+If no, set to false, and the command will only run via console.  
+
+**Example**
+```YAML
+ player-update-languages: false
+ ```
+ ___
+
+ #### `save-interval`{#config-option}  
+
+ How often (in minutes) do you want all Guild Data to save?  
+
+ **Example**
+ ```YAML
+ save-interval: 1
+ ```
+ ___
+
 
 #### `update-check`{#config-option}
 
