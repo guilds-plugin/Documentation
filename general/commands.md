@@ -166,9 +166,13 @@ ___
 **Permission**: guilds.command.list  
 Opens the guild list GUI.
 ___
-`/guild vault <#>`{.command}  
+`/guild vault`{.command}  
 **Permission**: guilds.command.vault  
 Opens a guild vault GUI.
+___
+`/guild info`{.command}  
+**Permission**: guilds.command.info  
+Opens up the guild info GUI.
 ___
 
 ## Homes Commands
