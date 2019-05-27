@@ -280,7 +280,7 @@ ___
 **Permission**: guilds.command.motd.modify  
 Set the MOTD of your guild.
 ___
-`/guild motd remove`{.command}
+`/guild motd remove`{.command}  
 **Permmission**: guilds.command.motd.modify  
 Remove the MOTD of your guild.
 ___
