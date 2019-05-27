@@ -39,6 +39,14 @@ ___
 **Permission**: guids.command.admin  
 Allows you to give upgrade tickets to players.
 ___
+`/guild admin motd remove <guild>`{.command}  
+**Permission**: guilds.command.admin  
+Allows you to remove the MOTD of a guild.
+___
+`/guild admin motd set <guild> <motd>`{.commad}  
+**Permission**: guilds.command.admin  
+Allows you to set the MOTD of a guild
+___
 `/guild admin prefix <guild> <prefix>`{.command}  
 **Permission**: guilds.command.admin  
 Allows you to change the prefix of a guild by force.
@@ -259,6 +267,22 @@ ___
 `/guild promote <player>`{.command}  
 **Permission**: guilds.command.promote  
 Promote a player in your guild.
+___
+
+## MOTD Commands
+Commands that manage a guild's MOTD.
+
+`/guild motd`{.command}  
+**Permission**: guilds.command.motd  
+View your guild's MOTD.
+___
+`/guild motd set <motd>`{.command}  
+**Permission**: guilds.command.motd.modify  
+Set the MOTD of your guild.
+___
+`/guild motd remove`{.command}
+**Permmission**: guilds.command.motd.modify  
+Remove the MOTD of your guild.
 ___
 
 ## Misc Commands
