@@ -43,7 +43,7 @@ ___
 **Permission**: guilds.command.admin  
 Allows you to remove the MOTD of a guild.
 ___
-`/guild admin motd set <guild> <motd>`{.commad}  
+`/guild admin motd set <guild> <motd>`{.command}  
 **Permission**: guilds.command.admin  
 Allows you to set the MOTD of a guild
 ___
