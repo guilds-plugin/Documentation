@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c5ed440287e6cf1e76d359fc2b8ae2c3"
+    "revision": "054e7cdae7352cc7e40901a18c06969d"
   },
   {
     "url": "assets/css/0.styles.292e15e1.css",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "revision": "20bb73ab117a58e9a6ad1a1403af01e3"
   },
   {
-    "url": "assets/js/app.6bbda37b.js",
-    "revision": "2c3847ba5acdc51815e18d3d8b389cc8"
+    "url": "assets/js/app.f3061c53.js",
+    "revision": "af5484c0d08faf9ff0bd07727640613f"
   },
   {
     "url": "favicons/android-icon-144x144.png",
@@ -200,12 +200,32 @@ self.__precacheManifest = [
     "revision": "f03c2c932e394f3ec507d6c5f89889a6"
   },
   {
+    "url": "general/commands.html",
+    "revision": "c6dc4244d5c813f1e6a58c6cf7c3efd4"
+  },
+  {
+    "url": "general/features.html",
+    "revision": "c34b0e0f4ae42826443bbc7a993fb281"
+  },
+  {
+    "url": "general/placeholders.html",
+    "revision": "4ef94d0479f3c1677664c1d093c3c03d"
+  },
+  {
     "url": "helpmenu.png",
     "revision": "63deede60d3ae2c19ba4c6e9ba30740c"
   },
   {
     "url": "index.html",
-    "revision": "edc3165e48f52e0369262997f498263f"
+    "revision": "c8e4c2fd7920b21218e0081b290d0657"
+  },
+  {
+    "url": "install/configuration.html",
+    "revision": "ac0c7bb89fa1f34e0dc20f6a026c51cb"
+  },
+  {
+    "url": "install/install.html",
+    "revision": "526a57ef2e98257e48ee6619373e7ecb"
   },
   {
     "url": "jetbrains.png",
@@ -218,6 +238,18 @@ self.__precacheManifest = [
   {
     "url": "logo.png",
     "revision": "58fd15aaac962f2aaf90d24e90eaaca9"
+  },
+  {
+    "url": "misc/future.html",
+    "revision": "30065744bb827df81690b66f81e3cbc2"
+  },
+  {
+    "url": "project/about.html",
+    "revision": "97d2e964d360248fe463f61b8d3e2e91"
+  },
+  {
+    "url": "project/introduction.html",
+    "revision": "5abb17da75e1f373f00874c988b22c6d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
