@@ -21,7 +21,6 @@ module.exports = {
   plugins: [
     '@vuepress/back-to-top',
     '@vuepress/last-updated',
-    'clean-urls',
     'vuepress-plugin-smooth-scroll',
     '@vuepress/pwa', {
       serviceWorker: true,
