@@ -35,9 +35,29 @@ Admin commands are basically self-understandable. They give you the power over h
 **Permission**: guilds.command.admin  
 Allows you to put a player into a guild by force.
 ___
+`/guild admin bank balance <guild>`{.command}  
+**Permission**: guilds.command.admin  
+Admin command to view a guild's bank balance.
+___
+`/guild admin bank deposit <guild> <amount>`{.command}  
+**Permission**: guilds.command.admin  
+Admin command to put money into a guild's ban.
+___
+`/guild admin bank withdraw <guild> <amount>`{.command}  
+**Permission**: guilds.command.admin  
+Admin command to put money into a guild's ban.
+___
+`/guild admin delhome <guild>`{.command}  
+**Permission**: guilds.command.admin  
+Admin command to delete the home of a guild.
+___
 `/guild admin give <player> <amount>`{.command}  
 **Permission**: guids.command.admin  
 Allows you to give upgrade tickets to players.
+___
+`/guild admin home <guild>`{.command}  
+**Permission**: guilds.command.admin  
+Admin command to teleport to the home of a guild.
 ___
 `/guild admin motd remove <guild>`{.command}  
 **Permission**: guilds.command.admin  
@@ -62,6 +82,10 @@ ___
 `/guild admin rename <guild> <new name>`{.command}  
 **Permission**: guilds.command.admin  
 Allows you change the current name of a guild by force.
+___
+`/guild admin sethome`{.command}  
+**Permission**: guilds.command.admin  
+Admin command to set the home of a guild.
 ___
 `/guild admin spy`{.command}  
 **Permission**: guilds.command.admin  
