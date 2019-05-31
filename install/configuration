@@ -23,7 +23,7 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#151515">
     
-    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.963c9795.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/10.1d20a0c2.js" as="script"><link rel="prefetch" href="/assets/js/11.52eb7b7d.js"><link rel="prefetch" href="/assets/js/12.228281ae.js"><link rel="prefetch" href="/assets/js/13.98ef6fcf.js"><link rel="prefetch" href="/assets/js/14.fbdbb5e9.js"><link rel="prefetch" href="/assets/js/3.e61f74c4.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/5.7761fbd1.js"><link rel="prefetch" href="/assets/js/6.04a79e5e.js"><link rel="prefetch" href="/assets/js/7.9ae26ad8.js"><link rel="prefetch" href="/assets/js/8.179391d1.js"><link rel="prefetch" href="/assets/js/9.adfbdde0.js">
+    <link rel="preload" href="/assets/css/0.styles.292e15e1.css" as="style"><link rel="preload" href="/assets/js/app.6bbda37b.js" as="script"><link rel="preload" href="/assets/js/2.64733279.js" as="script"><link rel="preload" href="/assets/js/10.a693719b.js" as="script"><link rel="prefetch" href="/assets/js/11.463318cb.js"><link rel="prefetch" href="/assets/js/12.1777c36f.js"><link rel="prefetch" href="/assets/js/13.98ef6fcf.js"><link rel="prefetch" href="/assets/js/14.fbdbb5e9.js"><link rel="prefetch" href="/assets/js/3.e61f74c4.js"><link rel="prefetch" href="/assets/js/4.72f409b4.js"><link rel="prefetch" href="/assets/js/5.a67319a3.js"><link rel="prefetch" href="/assets/js/6.04a79e5e.js"><link rel="prefetch" href="/assets/js/7.9ae26ad8.js"><link rel="prefetch" href="/assets/js/8.2bc8fb1b.js"><link rel="prefetch" href="/assets/js/9.adfbdde0.js">
     <link rel="stylesheet" href="/assets/css/0.styles.292e15e1.css">
   </head>
   <body>
@@ -644,6 +644,6 @@ You can use {prefix} to show the Guild Prefix instead if you would like.</p> <p>
             <span class="token key atrule">delete-code</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
             <span class="token key atrule">see-code-redeemers</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
 </code></pre></div><hr></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">5/13/2019, 9:17:46 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----><SWUpdatePopup></SWUpdatePopup></div></div>
-    <script src="/assets/js/app.963c9795.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/10.1d20a0c2.js" defer></script>
+    <script src="/assets/js/app.6bbda37b.js" defer></script><script src="/assets/js/2.64733279.js" defer></script><script src="/assets/js/10.a693719b.js" defer></script>
   </body>
 </html>
