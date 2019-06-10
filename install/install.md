@@ -12,7 +12,14 @@
 
 ### Plugin Dependencies
 
-Guilds has a single plugin dependency which is [Vault](https://www.spigotmc.org/resources/34315/). Please make sure this plugin is on your server before you try and start Guilds, or it will NOT start!
+**Vault**
+[Vault](https://www.spigotmc.org/resources/34315/) is a requirement for the plugin to run. It helps handling economy and permissions. Please make sure this plugin is on your server before you try and start Guilds, or it will NOT start!
+
+**Economy Plugin**
+An economy plugin is required to make the plugin work properly. Some popular ones are EssentialsX, iConomy, PlayerPoints, etc.
+
+**Permission Plugin**
+A permission plugin is required on for this plugin to work properly. The commands and other features all use permission nodes to properly work. A popular one is LuckPerms!
 
 ### Server Dependencies
 
