@@ -58,6 +58,9 @@ ___
 `/guild admin home <guild>`{.command}  
 **Permission**: guilds.command.admin  
 Admin command to teleport to the home of a guild.
+`/guild admin motd <guild>`{.command}  
+**Permission**: guilds.command.admin  
+Allows you to view the MOTD of a guild.
 ___
 `/guild admin motd remove <guild>`{.command}  
 **Permission**: guilds.command.admin  
