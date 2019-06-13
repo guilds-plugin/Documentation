@@ -40,6 +40,7 @@ module.exports = {
   description: 'The easiest way to make the most out of the style of RPG on your network. What are you waiting for?',
   themeConfig: {
     logo: '/logo-nav.png',
+    lastUpdated: 'Last Updated',
     nav: [
       { text: 'Spigot', link: 'https://www.spigotmc.org/resources/48920/' },
       { text: 'Discord', link: 'https://glaremasters.me/discord' },

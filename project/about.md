@@ -4,8 +4,7 @@
 
 | Name                                    | Discord            | Role           |
 | --------------------------------------- | ------------------ | -------------- |
-| [Glare](https://glaremasters.me)        | `Glare#8499`       | Project Leader |
-| [LemmoTresto](https://lemmotresto.com/) | `LemmoTresto#1685` | Developer      |
+| [Glare](https://glaremasters.me)        | `Glare#8499`       | Project Manager|
 
 ## Open-Source Team
 
