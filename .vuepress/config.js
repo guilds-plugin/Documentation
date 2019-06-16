@@ -54,6 +54,7 @@ module.exports = {
           children: [
             '/project/introduction.md',
             '/project/about.md',
+            '/project/changelog.md',
           ]
         },
         {
