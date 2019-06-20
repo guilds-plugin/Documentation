@@ -23,7 +23,7 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#151515">
     
-    <link rel="preload" href="/assets/css/0.styles.50505080.css" as="style"><link rel="preload" href="/assets/js/app.cdefd791.js" as="script"><link rel="preload" href="/assets/js/2.8305f7d1.js" as="script"><link rel="preload" href="/assets/js/10.3daf019e.js" as="script"><link rel="prefetch" href="/assets/js/11.bf68875d.js"><link rel="prefetch" href="/assets/js/12.dd16c294.js"><link rel="prefetch" href="/assets/js/13.e8e1176d.js"><link rel="prefetch" href="/assets/js/14.ead6047d.js"><link rel="prefetch" href="/assets/js/3.8d8b60e6.js"><link rel="prefetch" href="/assets/js/4.dfbb35ab.js"><link rel="prefetch" href="/assets/js/5.ae7fd582.js"><link rel="prefetch" href="/assets/js/6.2ec4bbcb.js"><link rel="prefetch" href="/assets/js/7.ec6da2fa.js"><link rel="prefetch" href="/assets/js/8.899a5e5a.js"><link rel="prefetch" href="/assets/js/9.cb1ab95b.js">
+    <link rel="preload" href="/assets/css/0.styles.50505080.css" as="style"><link rel="preload" href="/assets/js/app.12420743.js" as="script"><link rel="preload" href="/assets/js/2.8305f7d1.js" as="script"><link rel="preload" href="/assets/js/10.3e4f2f17.js" as="script"><link rel="prefetch" href="/assets/js/11.bf68875d.js"><link rel="prefetch" href="/assets/js/12.dd16c294.js"><link rel="prefetch" href="/assets/js/13.e8e1176d.js"><link rel="prefetch" href="/assets/js/14.ead6047d.js"><link rel="prefetch" href="/assets/js/3.8d8b60e6.js"><link rel="prefetch" href="/assets/js/4.dfbb35ab.js"><link rel="prefetch" href="/assets/js/5.ae7fd582.js"><link rel="prefetch" href="/assets/js/6.2ec4bbcb.js"><link rel="prefetch" href="/assets/js/7.ec6da2fa.js"><link rel="prefetch" href="/assets/js/8.899a5e5a.js"><link rel="prefetch" href="/assets/js/9.cb1ab95b.js">
     <link rel="stylesheet" href="/assets/css/0.styles.50505080.css">
   </head>
   <body>
@@ -54,6 +54,11 @@ If no, set to false, and the command will only run via console.</p> <p><strong>E
         <span class="token key atrule">gui-name</span><span class="token punctuation">:</span> Guild List
         <span class="token comment"># What should the name of the all the items be in the inventory?</span>
         <span class="token key atrule">item-name</span><span class="token punctuation">:</span> '<span class="token important">&amp;f</span><span class="token punctuation">{</span>player<span class="token punctuation">}</span>''s Guild'
+        <span class="token comment"># How should the menu be sorted?</span>
+        <span class="token comment"># LOADED: In the order that the Guilds were loaded on startup</span>
+        <span class="token comment"># TIER: In order from highest tier to lowest tier</span>
+        <span class="token comment"># MEMBERS: In order from most members to least members</span>
+        <span class="token key atrule">sort</span><span class="token punctuation">:</span> LOADED
         <span class="token comment"># What item should players click to go to the next page?</span>
         <span class="token key atrule">next-page-item</span><span class="token punctuation">:</span> EMPTY_MAP
         <span class="token comment"># What should the name of this item be?</span>
@@ -378,10 +383,20 @@ You can get to this in game by clicking on the members icon via the guild info g
 <span class="token punctuation">-</span> crap
 <span class="token punctuation">-</span> ass
 <span class="token punctuation">-</span> stupid
-</code></pre></div><hr> <h4 id="format"><a href="#format" aria-hidden="true" class="header-anchor">#</a> <code id="config-option">Format</code></h4> <p>Configuration for setting up the chat format for guild chat and the admin spy chat.</p> <p><strong>Example</strong></p> <div class="language-YAML extra-class"><pre class="language-yaml"><code><span class="token comment"># This is the style used when a message sent in guild chat.</span>
+</code></pre></div><hr> <h4 id="format"><a href="#format" aria-hidden="true" class="header-anchor">#</a> <code id="config-option">Format</code></h4> <p>Configuration for setting up the chat format for guild chat, admin spy chat, and placeholder designs!</p> <p><strong>Example</strong></p> <div class="language-YAML extra-class"><pre class="language-yaml"><code><span class="token comment"># This is the style used when a message sent in guild chat.</span>
 <span class="token key atrule">chat</span><span class="token punctuation">:</span> <span class="token string">'&amp;7&amp;l[Guild Chat]&amp;r &amp;b[{role}&amp;b]&amp;r &amp;b {player}: {message}'</span>
 <span class="token comment"># Similar to the one above, just for the admins spying.</span>
 <span class="token key atrule">spy</span><span class="token punctuation">:</span> <span class="token string">'&amp;7&amp;l[Guild Spy]&amp;r &amp;b[{guild}&amp;b]&amp;r &amp;b[{role}&amp;b]&amp;r &amp;b {player}: {message}'</span>
+<span class="token comment"># Used for {GUILD_FORMATTED} and %guilds_formatted%</span>
+<span class="token key atrule">placeholder-design</span><span class="token punctuation">:</span>
+    <span class="token comment"># The left bracket in the placeholder</span>
+    <span class="token key atrule">left-bracket</span><span class="token punctuation">:</span> <span class="token string">'['</span>
+    <span class="token comment"># The content of the placeholder. Either will be {name} or {prefix}</span>
+    <span class="token key atrule">content</span><span class="token punctuation">:</span> <span class="token string">'{name}'</span>
+    <span class="token comment"># What to show instead of the placeholder if there's no guild</span>
+    <span class="token key atrule">no-guild</span><span class="token punctuation">:</span> <span class="token string">''</span>
+    <span class="token comment"># The right bracket in the placeholder</span>
+    <span class="token key atrule">right-bracket</span><span class="token punctuation">:</span> <span class="token string">']'</span>
 </code></pre></div><hr> <h4 id="damage"><a href="#damage" aria-hidden="true" class="header-anchor">#</a> <code id="config-option">Damage</code></h4> <p>Configuration for modifying if a player is allowed to damage other people in their guild / ally</p> <p><strong>Example</strong></p> <div class="language-YAML extra-class"><pre class="language-yaml"><code><span class="token comment"># Do we want people in the same guild to be able to damage each other?</span>
 <span class="token key atrule">guild</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
 <span class="token comment"># Do we want allies to be able to damage each other?</span>
@@ -643,7 +658,7 @@ You can use {prefix} to show the Guild Prefix instead if you would like.</p> <p>
             <span class="token key atrule">create-code</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
             <span class="token key atrule">delete-code</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
             <span class="token key atrule">see-code-redeemers</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-</code></pre></div><hr></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">5/13/2019, 9:17:46 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+</code></pre></div><hr></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">6/20/2019, 10:59:30 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
         ←
         <a href="/install/install.html" class="prev">
           Installation
@@ -652,6 +667,6 @@ You can use {prefix} to show the Guild Prefix instead if you would like.</p> <p>
         </a>
         →
       </span></p></div> </main></div><div class="global-ui"><!----><SWUpdatePopup></SWUpdatePopup></div></div>
-    <script src="/assets/js/app.cdefd791.js" defer></script><script src="/assets/js/2.8305f7d1.js" defer></script><script src="/assets/js/10.3daf019e.js" defer></script>
+    <script src="/assets/js/app.12420743.js" defer></script><script src="/assets/js/2.8305f7d1.js" defer></script><script src="/assets/js/10.3e4f2f17.js" defer></script>
   </body>
 </html>
