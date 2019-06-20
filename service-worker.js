@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "1349362ae1d0f26a3f06862ee3cf09c1"
+    "revision": "74f8a41f17235fc21d23a9675ff4535d"
   },
   {
-    "url": "assets/css/0.styles.ed90997f.css",
-    "revision": "5d6d77e6a1275efce679ca60e695b3cc"
+    "url": "assets/css/0.styles.50505080.css",
+    "revision": "48250671061ecc9fe89025b175062f36"
   },
   {
     "url": "assets/img/helpmenu.63deede6.png",
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "revision": "6e79e46640b05d471d2eb26a72a5dc1a"
   },
   {
-    "url": "assets/js/9.5f26ef65.js",
-    "revision": "a29fc1bdeb1869fbc06640d7f5470ef2"
+    "url": "assets/js/9.cb1ab95b.js",
+    "revision": "86de8be6343eba03a509882b01aa9292"
   },
   {
-    "url": "assets/js/app.638818f1.js",
-    "revision": "c3cc65e7f0dfc45cf8db16844c6ea3be"
+    "url": "assets/js/app.3db0324a.js",
+    "revision": "71f160cfca485cd76eda95dae3952175"
   },
   {
     "url": "favicons/android-icon-144x144.png",
@@ -201,15 +201,15 @@ self.__precacheManifest = [
   },
   {
     "url": "general/commands.html",
-    "revision": "a380a8516f957a2eedf86924a50958d6"
+    "revision": "61a57cfdd14e2fa0a175bce1c88bf9b4"
   },
   {
     "url": "general/features.html",
-    "revision": "5a21957950c41a69ce24265d137f84e0"
+    "revision": "3310fd15ef9e31d35a90884e7867adb1"
   },
   {
     "url": "general/placeholders.html",
-    "revision": "39b955d3c31d799070761c9bc151eb7b"
+    "revision": "e39f841fddcf975eecaa0d407f670a90"
   },
   {
     "url": "helpmenu.png",
@@ -217,15 +217,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "736729df06f0c5d1a1fbad82f657bba8"
+    "revision": "d5d73c5e98f7977cc752977247e2baee"
   },
   {
     "url": "install/configuration.html",
-    "revision": "cf578067db879ab252d8c15124d36c94"
+    "revision": "33879edc8bde7424f8eba7344411e2b8"
   },
   {
     "url": "install/install.html",
-    "revision": "ff762317b6a42050b4d412f3e83012b2"
+    "revision": "c7c3f408cd9a02c8b53b224aab4b613c"
   },
   {
     "url": "jetbrains.png",
@@ -241,15 +241,15 @@ self.__precacheManifest = [
   },
   {
     "url": "misc/future.html",
-    "revision": "9de93700fceb0ece482d5231948b7e87"
+    "revision": "f0fd668a42e733c5cc2738fd67c47a01"
   },
   {
     "url": "project/about.html",
-    "revision": "13b461279e8203336bdc5708ae56d665"
+    "revision": "fa1b916cb47d7d79328293d81cf04a3e"
   },
   {
     "url": "project/introduction.html",
-    "revision": "4c3bf83c29e12d623744b44f6e3df9ad"
+    "revision": "97c0b122bcc83f9abd24feb71ad49b9b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
