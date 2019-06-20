@@ -172,6 +172,11 @@ Detailed explanation and configuration of how the Guild List works.
         gui-name: Guild List
         # What should the name of the all the items be in the inventory?
         item-name: '&f{player}''s Guild'
+        # How should the menu be sorted?
+        # LOADED: In the order that the Guilds were loaded on startup
+        # TIER: In order from highest tier to lowest tier
+        # MEMBERS: In order from most members to least members
+        sort: LOADED
         # What item should players click to go to the next page?
         next-page-item: EMPTY_MAP
         # What should the name of this item be?
