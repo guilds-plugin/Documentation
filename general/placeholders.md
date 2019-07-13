@@ -5,7 +5,7 @@
 %guilds_master%  
 %guilds_member_count%  
 %guilds_prefix%  
-%guilds_member_online%  
+%guilds_members_online%  
 %guilds_status%  
 %guilds_role%  
 %guilds_tier%  
