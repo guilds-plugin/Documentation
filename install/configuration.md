@@ -172,6 +172,11 @@ Detailed explanation and configuration of how the Guild List works.
         gui-name: Guild List
         # What should the name of the all the items be in the inventory?
         item-name: '&f{player}''s Guild'
+        # How should the menu be sorted?
+        # LOADED: In the order that the Guilds were loaded on startup
+        # TIER: In order from highest tier to lowest tier
+        # MEMBERS: In order from most members to least members
+        sort: LOADED
         # What item should players click to go to the next page?
         next-page-item: EMPTY_MAP
         # What should the name of this item be?
@@ -566,7 +571,7 @@ ___
 
 #### `Format`{#config-option}
 
-Configuration for setting up the chat format for guild chat and the admin spy chat.
+Configuration for setting up the chat format for guild chat, admin spy chat, and placeholder designs!
 
 **Example**
 ```YAML
@@ -574,6 +579,16 @@ Configuration for setting up the chat format for guild chat and the admin spy ch
 chat: '&7&l[Guild Chat]&r &b[{role}&b]&r &b {player}: {message}'
 # Similar to the one above, just for the admins spying.
 spy: '&7&l[Guild Spy]&r &b[{guild}&b]&r &b[{role}&b]&r &b {player}: {message}'
+# Used for {GUILD_FORMATTED} and %guilds_formatted%
+placeholder-design:
+    # The left bracket in the placeholder
+    left-bracket: '['
+    # The content of the placeholder. Either will be {name} or {prefix}
+    content: '{name}'
+    # What to show instead of the placeholder if there's no guild
+    no-guild: ''
+    # The right bracket in the placeholder
+    right-bracket: ']'
 ```
 ___
 

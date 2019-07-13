@@ -16,6 +16,7 @@
 %guilds_code_amount%  
 %guilds_max_members%  
 %guilds_max_balance%  
+%guilds_formatted%  
 ___
 
 ## MVdWPlaceholderAPI
@@ -40,4 +41,5 @@ ___
 {GUILD_STATUS}  
 {GUILD_ROLE}  
 {GUILD_STATUS}  
+{GUILD_FORMATTED}  
 ___
